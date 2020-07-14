@@ -23,10 +23,17 @@
               "src/favicon.ico",
               "src/assets"
             ],
+
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
           },
           "configurations": {
             "production": {
@@ -119,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cursoSpring-angular"
+    }
+  },
+  "defaultProject": "cursoSpring-angular",
+  "cli": {
+    "analytics": "3a84b802-f8b2-4005-a3e1-073bb431db78"
+  }
 }
